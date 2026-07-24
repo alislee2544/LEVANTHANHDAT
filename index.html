@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>soda.notsofa</title>
+
+    <meta name="description"
+        content="Website thực hành HTML, CSS, JavaScript - Lê Văn Thành Đạt">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- =========================
+            HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+
+            <h1>soda.notsofa</h1>
+
+            <p>Lê Văn Thành Đạt</p>
+
+            <span>MSSV : 231A010884</span>
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li>
+
+                    <a href="index.html">
+                        Trang chủ
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="about.html">
+                        Giới thiệu
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="contact.html">
+                        Liên hệ
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+            HERO
+    ========================== -->
+
+    <section class="hero">
+
+        <div class="overlay fade">
+
+            <h2>
+
+                Luxury JavaScript Portfolio
+
+            </h2>
+
+            <p>
+
+                Chào mừng đến với website
+                <strong>soda.notsofa</strong>.
+
+                Đây là website thực hành HTML, CSS và JavaScript
+                được thiết kế theo phong cách resort cao cấp,
+                giao diện hiện đại, responsive và có hiệu ứng 3D.
+
+            </p>
+
+            <a href="#works" class="btn">
+
+                Khám phá
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+            GIỚI THIỆU
+    ========================== -->
+
+    <section class="content fade">
+
+        <h2>
+
+            Thông tin sinh viên
+
+        </h2>
+
+        <p>
+
+            <strong>Họ và tên:</strong>
+
+            Lê Văn Thành Đạt
+
+        </p>
+
+        <p>
+
+            <strong>Mã số sinh viên:</strong>
+
+            231A010884
+
+        </p>
+
+        <p>
+
+            Website này được xây dựng nhằm trình bày các bài tập
+            HTML, CSS và JavaScript với giao diện hiện đại,
+            có hiệu ứng chuyển động, hiệu ứng 3D,
+            hỗ trợ Responsive trên điện thoại,
+            máy tính bảng và máy tính.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+            DANH SÁCH BÀI TẬP
+    ========================== -->
+
+    <section id="works">
+
+        <h2>
+
+            Danh sách bài thực hành
+
+        </h2>
+
+        <div class="card-grid">
+
+            <div class="card fade">
+
+                <h3>TK5</h3>
+
+                <p>
+
+                    Accordion
+
+                </p>
+
+                <button>
+
+                    Xem bài
+
+                </button>
+
+            </div>
+
+            <div class="card fade">
+
+                <h3>TK7</h3>
+
+                <p>
+
+                    Random Password
+
+                </p>
+
+                <button>
+
+                    Xem bài
+
+                </button>
+
+            </div>
+
+            <div class="card fade">
+
+                <h3>TK8</h3>
+
+                <p>
+
+                    Hex to RGB
+
+                </p>
+
+                <button>
+
+                    Xem bài
+
+                </button>
+
+            </div>
+
+            <div class="card fade">
+
+                <h3>K4</h3>
+
+                <p>
+
+                    Pagination
+
+                </p>
+
+                <button>
+
+                    Xem bài
+
+                </button>
+
+            </div>
+
+            <div class="card fade">
+
+                <h3>K6</h3>
+
+                <p>
+
+                    Move Div
+
+                </p>
+
+                <button>
+
+                    Xem bài
+
+                </button>
+
+            </div>
+
+            <div class="card fade">
+
+                <h3>K8</h3>
+
+                <p>
+
+                    BMI Calculator
+
+                </p>
+
+                <button>
+
+                    Xem bài
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+	<!-- =========================
+        TK5 ACCORDION
+========================== -->
+
+<section class="content fade">
+
+    <h2>
+        TK5 - Accordion
+    </h2>
+
+
+    <div class="accordion">
+
+
+        <div class="accordion-item">
+
+
+            <div class="accordion-header">
+
+                Bấm để xem nội dung Accordion
+
+            </div>
+
+
+            <div class="accordion-content">
+
+
+                <p>
+
+                    Đây là nội dung ẩn.
+
+                    Khi người dùng click vào tiêu đề,
+                    JavaScript sẽ sử dụng
+                    <strong>
+                        classList.toggle()
+                    </strong>
+
+                    để mở hoặc đóng nội dung.
+
+                    Hiệu ứng trượt được thực hiện bằng
+                    CSS
+                    <strong>
+                        max-height
+                    </strong>
+
+                    và
+                    <strong>
+                        transition
+                    </strong>.
+
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+        TK7 PASSWORD
+========================== -->
+
+<section class="content fade">
+
+
+    <h2>
+
+        TK7 - Random Password Generator
+
+    </h2>
+
+
+    <p>
+
+        Tạo mật khẩu ngẫu nhiên dài 8 ký tự
+        gồm chữ cái thường và số.
+
+    </p>
+
+
+    <div class="password-box">
+
+
+        <input
+
+            type="text"
+
+            id="passwordResult"
+
+            readonly
+
+            placeholder="Mật khẩu sẽ hiển thị ở đây"
+
+        >
+
+
+
+        <button id="passwordBtn">
+
+            Tạo mật khẩu
+
+        </button>
+
+
+    </div>
+
+
+</section>
+
+
+
+
+<!-- =========================
+        TK8 HEX RGB
+========================== -->
+
+
+<section class="content fade">
+
+
+    <h2>
+
+        TK8 - Chuyển đổi Hex sang RGB
+
+    </h2>
+
+
+    <p>
+
+        Nhập mã màu Hex.
+        Ví dụ:
+        #FF0000
+
+    </p>
+
+
+    <div class="hex-box">
+
+
+        <input
+
+            type="text"
+
+            id="hexInput"
+
+            placeholder="#FF0000"
+
+        >
+
+
+
+        <button id="convertBtn">
+
+            Chuyển đổi
+
+        </button>
+
+
+    </div>
+
+
+
+    <div
+
+        id="rgbResult"
+
+        class="result"
+
+    >
+
+        Kết quả RGB
+
+    </div>
+
+
+
+</section>
+
+
+
+
+<!-- =========================
+        K4 PAGINATION
+========================== -->
+
+
+<section class="content fade">
+
+
+    <h2>
+
+        K4 - Pagination
+
+    </h2>
+
+
+    <p>
+
+        Danh sách gồm 50 mục.
+        Mỗi trang hiển thị 10 mục.
+
+    </p>
+
+
+
+    <div class="list-container">
+
+
+        <ul id="itemList">
+
+
+            <!-- JavaScript tạo 50 item -->
+
+
+        </ul>
+
+
+
+        <div
+
+            class="pagination"
+
+            id="pagination"
+
+        >
+
+
+            <!-- Nút phân trang tạo bằng JS -->
+
+
+        </div>
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+<!-- =========================
+        K6 MOVE DIV
+========================== -->
+
+
+<section class="content fade">
+
+
+    <h2>
+
+        K6 - Điều khiển khối DIV
+
+    </h2>
+
+
+    <p>
+
+        Sử dụng phím:
+
+    </p>
+
+
+    <ul>
+
+        <li>
+            ↑ : Di chuyển lên
+        </li>
+
+
+        <li>
+            ↓ : Di chuyển xuống
+        </li>
+
+
+    </ul>
+
+
+
+    <div class="move-area">
+
+
+        <div id="moveBox">
+
+
+        </div>
+
+
+    </div>
+
+
+
+</section>
+
+
+
+
+
+<!-- =========================
+        K8 BMI
+========================== -->
+
+
+<section class="content fade">
+
+
+    <h2>
+
+        K8 - BMI Calculator
+
+    </h2>
+
+
+
+    <p>
+
+        Nhập cân nặng và chiều cao
+        để tính chỉ số BMI.
+
+    </p>
+
+
+
+    <div class="bmi">
+
+
+        <input
+
+            type="number"
+
+            id="weight"
+
+            placeholder="Cân nặng (kg)"
+
+        >
+
+
+
+        <input
+
+            type="number"
+
+            id="height"
+
+            step="0.01"
+
+            placeholder="Chiều cao (m)"
+
+        >
+
+
+
+        <button id="bmiBtn">
+
+            Tính BMI
+
+        </button>
+
+
+
+        <div
+
+            id="bmiResult"
+
+        >
+
+            Kết quả BMI sẽ hiển thị tại đây.
+
+        </div>
+
+
+
+    </div>
+
+
+
+</section>
+<!-- =========================
+        3D BACKGROUND
+========================== -->
+
+
+<div id="canvas-container">
+
+</div>
+
+
+
+<!-- =========================
+        FOOTER
+========================== -->
+
+
+<footer>
+
+
+    <h3>
+
+        soda.notsofa
+
+    </h3>
+
+
+    <p>
+
+        Thiết kế bởi:
+        <strong>
+            Lê Văn Thành Đạt
+        </strong>
+
+    </p>
+
+
+    <p>
+
+        MSSV:
+        <strong>
+            231A010884
+        </strong>
+
+    </p>
+
+
+    <p>
+
+        HTML5 | CSS3 | JavaScript | Three.js
+
+    </p>
+
+
+    <p>
+
+        © 2025 soda.notsofa.
+        All Rights Reserved.
+
+    </p>
+
+
+</footer>
+
+
+
+
+
+<!-- =========================
+        JAVASCRIPT
+========================== -->
+
+
+<script src="js/app.js"></script>
+
+
+
+<!-- Three.js Library -->
+
+<script 
+src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js">
+
+</script>
+
+
+
+<!-- =========================
+        3D EFFECT
+========================== -->
+
+
+<script>
+
+
+/*
+
+    Three.js
+    Floating 3D Sphere
+
+*/
+
+
+const container =
+document.getElementById(
+"canvas-container"
+);
+
+
+
+if(container){
+
+
+
+const scene =
+new THREE.Scene();
+
+
+
+const camera =
+new THREE.PerspectiveCamera(
+
+75,
+
+window.innerWidth /
+window.innerHeight,
+
+0.1,
+
+1000
+
+);
+
+
+
+const renderer =
+new THREE.WebGLRenderer({
+
+alpha:true,
+
+antialias:true
+
+});
+
+
+
+renderer.setSize(
+
+window.innerWidth,
+
+window.innerHeight
+
+);
+
+
+
+container.appendChild(
+
+renderer.domElement
+
+);
+
+
+
+
+
+// tạo hình cầu 3D
+
+
+const geometry =
+new THREE.SphereGeometry(
+
+1.5,
+
+64,
+
+64
+
+);
+
+
+
+const material =
+new THREE.MeshStandardMaterial({
+
+color:0xd9b66f,
+
+metalness:0.8,
+
+roughness:0.25
+
+});
+
+
+
+const sphere =
+new THREE.Mesh(
+
+geometry,
+
+material
+
+);
+
+
+
+scene.add(
+
+sphere
+
+);
+
+
+
+
+
+// ánh sáng
+
+
+const light =
+new THREE.PointLight(
+
+0xffffff,
+
+2,
+
+100
+
+);
+
+
+light.position.set(
+
+5,
+
+5,
+
+5
+
+);
+
+
+scene.add(light);
+
+
+
+
+
+const ambient =
+new THREE.AmbientLight(
+
+0xffffff,
+
+0.5
+
+);
+
+
+scene.add(ambient);
+
+
+
+
+
+camera.position.z=5;
+
+
+
+
+
+function animate(){
+
+
+requestAnimationFrame(
+
+animate
+
+);
+
+
+
+sphere.rotation.x +=0.003;
+
+
+sphere.rotation.y +=0.006;
+
+
+
+renderer.render(
+
+scene,
+
+camera
+
+);
+
+
+}
+
+
+
+animate();
+
+
+
+
+
+// responsive 3D
+
+
+window.addEventListener(
+
+"resize",
+
+()=>{
+
+
+camera.aspect =
+
+window.innerWidth /
+
+window.innerHeight;
+
+
+
+camera.updateProjectionMatrix();
+
+
+
+renderer.setSize(
+
+window.innerWidth,
+
+window.innerHeight
+
+);
+
+
+
+});
+
+
+}
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+</html>
